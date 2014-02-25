@@ -30,15 +30,45 @@
     
     [self.view addSubview:botao];
     
+//    
+//    UIImage *letraImage = [UIImage imageNamed:@"BolaOriginal.png"];
+//    UIImageView *imageView = [[UIImageView alloc]initWithImage: letraImage];
+  
+    
+ 
+
  
 }
 
 -(void)next:(id)sender {
-    LetraBViewController *proximo = [[LetraBViewController alloc]
-                                              initWithNibName:nil
-                                            bundle:NULL];
-    [self.navigationController pushViewController:proximo
-                                         animated:YES];
+    LetraBViewController *proximo = [[LetraBViewController alloc]initWithNibName:nil bundle:NULL];
+    [self.navigationController pushViewController:proximo animated:YES];
+    self.title = @"B";
+ 
+       UIBarButtonItem *next = [[UIBarButtonItem alloc]
+                                initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward target:self action:@selector(next:)];
+       self.navigationItem.rightBarButtonItem=next;
+    
+       UIButton *botao = [UIButton
+                          buttonWithType:UIButtonTypeSystem];
+        [botao
+        setTitle:@"Mostre uma palavra, uma figura e leia a palavra "
+        forState:UIControlStateNormal];
+     [botao sizeToFit];
+        botao.center = self.view.center;
+    
+       [self.view addSubview:botao];
+    
+    
+    
+    
+
+    
+ 
+    
+    
+    
+    
     
 }
 
