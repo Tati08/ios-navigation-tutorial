@@ -7,15 +7,22 @@
 //
 
 #import "MackenzieAppDelegate.h"
-#import "LetraAViewController.h"
+#import "LetraViewController.h"
+#import "StoreLetra.h"
+#import "Letra.h"
 
 @implementation MackenzieAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    LetraAViewController *viewController = [[LetraAViewController alloc]
-                                           initWithNibName:nil
-                                           bundle:nil];
+    
+    Letra *letra1 = [[Letra alloc]init];
+    letra1.letra = @"A"; letra1.imagem = @"BolaOriginal"; letra1.palavra = @"Aracaju";
+    
+    
+    [[[StoreLetra instanciaL] dados] addObject:letra1];
+    
+    LetraViewController *viewController = [[LetraViewController alloc] init];
     
     
     self.navigationController = [[UINavigationController alloc]
@@ -31,6 +38,8 @@
     
     return YES;
 }
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application

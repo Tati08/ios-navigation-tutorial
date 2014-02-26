@@ -19,8 +19,11 @@
 		27156F6818B76AF50053A99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27156F5018B76AF50053A99C /* UIKit.framework */; };
 		27156F7018B76AF50053A99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27156F6E18B76AF50053A99C /* InfoPlist.strings */; };
 		27156F7218B76AF50053A99C /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7118B76AF50053A99C /* NavigationTests.m */; };
-		27156F7D18BA89430053A99C /* LetraAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7C18BA89430053A99C /* LetraAViewController.m */; };
-		27156F8018BA8B210053A99C /* LetraBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7F18BA8B210053A99C /* LetraBViewController.m */; };
+		5B1312B618BE6071007DD9E7 /* StoreLetra.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1312B518BE6071007DD9E7 /* StoreLetra.m */; };
+		5B1312B918BE62B0007DD9E7 /* Letra.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1312B818BE62B0007DD9E7 /* Letra.m */; };
+		5B1312BB18BE66AC007DD9E7 /* LetraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1312BA18BE66AC007DD9E7 /* LetraView.xib */; };
+		5B1312BE18BE67CC007DD9E7 /* LetraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1312BD18BE67CC007DD9E7 /* LetraViewController.m */; };
+		5B1312C018BE8485007DD9E7 /* Bola.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1312BF18BE8485007DD9E7 /* Bola.png */; };
 		5B9653F418BD2C9700F49A7B /* BolaOriginal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9653F318BD2C9700F49A7B /* BolaOriginal.png */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +54,14 @@
 		27156F6D18B76AF50053A99C /* NavigationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTests-Info.plist"; sourceTree = "<group>"; };
 		27156F6F18B76AF50053A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27156F7118B76AF50053A99C /* NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
-		27156F7B18BA89430053A99C /* LetraAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetraAViewController.h; sourceTree = "<group>"; };
-		27156F7C18BA89430053A99C /* LetraAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetraAViewController.m; sourceTree = "<group>"; };
-		27156F7E18BA8B210053A99C /* LetraBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetraBViewController.h; sourceTree = "<group>"; };
-		27156F7F18BA8B210053A99C /* LetraBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetraBViewController.m; sourceTree = "<group>"; };
+		5B1312B418BE6071007DD9E7 /* StoreLetra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreLetra.h; sourceTree = "<group>"; };
+		5B1312B518BE6071007DD9E7 /* StoreLetra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreLetra.m; sourceTree = "<group>"; };
+		5B1312B718BE62B0007DD9E7 /* Letra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Letra.h; sourceTree = "<group>"; };
+		5B1312B818BE62B0007DD9E7 /* Letra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Letra.m; sourceTree = "<group>"; };
+		5B1312BA18BE66AC007DD9E7 /* LetraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LetraView.xib; path = ../LetraView.xib; sourceTree = "<group>"; };
+		5B1312BC18BE67CC007DD9E7 /* LetraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LetraViewController.h; path = ../LetraViewController.h; sourceTree = "<group>"; };
+		5B1312BD18BE67CC007DD9E7 /* LetraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LetraViewController.m; path = ../LetraViewController.m; sourceTree = "<group>"; };
+		5B1312BF18BE8485007DD9E7 /* Bola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bola.png; sourceTree = "<group>"; };
 		5B9653F318BD2C9700F49A7B /* BolaOriginal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BolaOriginal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,13 +124,15 @@
 			children = (
 				27156F5B18B76AF50053A99C /* MackenzieAppDelegate.h */,
 				27156F5C18B76AF50053A99C /* MackenzieAppDelegate.m */,
-				27156F5E18B76AF50053A99C /* Images.xcassets */,
+				5B1312B718BE62B0007DD9E7 /* Letra.h */,
+				5B1312B818BE62B0007DD9E7 /* Letra.m */,
+				5B1312B418BE6071007DD9E7 /* StoreLetra.h */,
+				5B1312B518BE6071007DD9E7 /* StoreLetra.m */,
+				5B1312BC18BE67CC007DD9E7 /* LetraViewController.h */,
+				5B1312BD18BE67CC007DD9E7 /* LetraViewController.m */,
+				5B1312BA18BE66AC007DD9E7 /* LetraView.xib */,
 				27156F5318B76AF50053A99C /* Supporting Files */,
-				27156F7B18BA89430053A99C /* LetraAViewController.h */,
-				27156F7C18BA89430053A99C /* LetraAViewController.m */,
 				5B9653F318BD2C9700F49A7B /* BolaOriginal.png */,
-				27156F7E18BA8B210053A99C /* LetraBViewController.h */,
-				27156F7F18BA8B210053A99C /* LetraBViewController.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -131,9 +140,11 @@
 		27156F5318B76AF50053A99C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27156F5E18B76AF50053A99C /* Images.xcassets */,
 				27156F5418B76AF50053A99C /* Navigation-Info.plist */,
 				27156F5518B76AF50053A99C /* InfoPlist.strings */,
 				27156F5818B76AF50053A99C /* main.m */,
+				5B1312BF18BE8485007DD9E7 /* Bola.png */,
 				27156F5A18B76AF50053A99C /* Navigation-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -234,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27156F5718B76AF50053A99C /* InfoPlist.strings in Resources */,
+				5B1312BB18BE66AC007DD9E7 /* LetraView.xib in Resources */,
+				5B1312C018BE8485007DD9E7 /* Bola.png in Resources */,
 				27156F5F18B76AF50053A99C /* Images.xcassets in Resources */,
 				5B9653F418BD2C9700F49A7B /* BolaOriginal.png in Resources */,
 			);
@@ -255,8 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27156F5D18B76AF50053A99C /* MackenzieAppDelegate.m in Sources */,
-				27156F7D18BA89430053A99C /* LetraAViewController.m in Sources */,
-				27156F8018BA8B210053A99C /* LetraBViewController.m in Sources */,
+				5B1312BE18BE67CC007DD9E7 /* LetraViewController.m in Sources */,
+				5B1312B918BE62B0007DD9E7 /* Letra.m in Sources */,
+				5B1312B618BE6071007DD9E7 /* StoreLetra.m in Sources */,
 				27156F5918B76AF50053A99C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
