@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface LetraViewController : UIViewController
+#import <AVFoundation/AVFoundation.h>
+@interface LetraViewController : UIViewController <AVSpeechSynthesizerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lugarPalavra;
 @property (weak, nonatomic) IBOutlet UIImageView *lugarImagem;
+@property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
+
+- (IBAction)play:(id)sender;
+
+
 
 @end

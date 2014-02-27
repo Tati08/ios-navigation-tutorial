@@ -23,8 +23,21 @@
 		5B1312B918BE62B0007DD9E7 /* Letra.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1312B818BE62B0007DD9E7 /* Letra.m */; };
 		5B1312BB18BE66AC007DD9E7 /* LetraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1312BA18BE66AC007DD9E7 /* LetraView.xib */; };
 		5B1312BE18BE67CC007DD9E7 /* LetraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1312BD18BE67CC007DD9E7 /* LetraViewController.m */; };
-		5B1312C018BE8485007DD9E7 /* Bola.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1312BF18BE8485007DD9E7 /* Bola.png */; };
-		5B9653F418BD2C9700F49A7B /* BolaOriginal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9653F318BD2C9700F49A7B /* BolaOriginal.png */; };
+		5B184A8F18BFD38700922040 /* alce.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A8E18BFD38700922040 /* alce.png */; };
+		5B184A9118BFD39300922040 /* baleia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9018BFD39300922040 /* baleia.png */; };
+		5B184A9318BFD39900922040 /* camelo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9218BFD39900922040 /* camelo.png */; };
+		5B184A9518BFD3A500922040 /* dinossauro.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9418BFD3A500922040 /* dinossauro.png */; };
+		5B184A9718BFD3BD00922040 /* elefante.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9618BFD3BD00922040 /* elefante.png */; };
+		5B184A9918BFD50F00922040 /* foca.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9818BFD50F00922040 /* foca.png */; };
+		5B184A9B18BFD51600922040 /* gato.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9A18BFD51600922040 /* gato.png */; };
+		5B184A9D18BFD60600922040 /* hamster.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9C18BFD60600922040 /* hamster.png */; };
+		5B184A9F18BFD60C00922040 /* iguana.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184A9E18BFD60C00922040 /* iguana.png */; };
+		5B184AA118BFD61200922040 /* jacare.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184AA018BFD61200922040 /* jacare.png */; };
+		5B184AA318BFD73200922040 /* kiwi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184AA218BFD73200922040 /* kiwi.png */; };
+		5B184AA518BFD73D00922040 /* laranja.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184AA418BFD73D00922040 /* laranja.png */; };
+		5B184AA718BFD74400922040 /* melancia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184AA618BFD74400922040 /* melancia.png */; };
+		5B184AA918BFD74C00922040 /* nabo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184AA818BFD74C00922040 /* nabo.png */; };
+		5B184AAB18BFD75300922040 /* onca.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B184AAA18BFD75300922040 /* onca.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +74,21 @@
 		5B1312BA18BE66AC007DD9E7 /* LetraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LetraView.xib; path = ../LetraView.xib; sourceTree = "<group>"; };
 		5B1312BC18BE67CC007DD9E7 /* LetraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LetraViewController.h; path = ../LetraViewController.h; sourceTree = "<group>"; };
 		5B1312BD18BE67CC007DD9E7 /* LetraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LetraViewController.m; path = ../LetraViewController.m; sourceTree = "<group>"; };
-		5B1312BF18BE8485007DD9E7 /* Bola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bola.png; sourceTree = "<group>"; };
-		5B9653F318BD2C9700F49A7B /* BolaOriginal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BolaOriginal.png; sourceTree = "<group>"; };
+		5B184A8E18BFD38700922040 /* alce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alce.png; sourceTree = "<group>"; };
+		5B184A9018BFD39300922040 /* baleia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baleia.png; sourceTree = "<group>"; };
+		5B184A9218BFD39900922040 /* camelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camelo.png; sourceTree = "<group>"; };
+		5B184A9418BFD3A500922040 /* dinossauro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinossauro.png; sourceTree = "<group>"; };
+		5B184A9618BFD3BD00922040 /* elefante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elefante.png; sourceTree = "<group>"; };
+		5B184A9818BFD50F00922040 /* foca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foca.png; sourceTree = "<group>"; };
+		5B184A9A18BFD51600922040 /* gato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gato.png; sourceTree = "<group>"; };
+		5B184A9C18BFD60600922040 /* hamster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamster.png; sourceTree = "<group>"; };
+		5B184A9E18BFD60C00922040 /* iguana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iguana.png; sourceTree = "<group>"; };
+		5B184AA018BFD61200922040 /* jacare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jacare.png; sourceTree = "<group>"; };
+		5B184AA218BFD73200922040 /* kiwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiwi.png; sourceTree = "<group>"; };
+		5B184AA418BFD73D00922040 /* laranja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laranja.png; sourceTree = "<group>"; };
+		5B184AA618BFD74400922040 /* melancia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melancia.png; sourceTree = "<group>"; };
+		5B184AA818BFD74C00922040 /* nabo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nabo.png; sourceTree = "<group>"; };
+		5B184AAA18BFD75300922040 /* onca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onca.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +158,6 @@
 				5B1312BD18BE67CC007DD9E7 /* LetraViewController.m */,
 				5B1312BA18BE66AC007DD9E7 /* LetraView.xib */,
 				27156F5318B76AF50053A99C /* Supporting Files */,
-				5B9653F318BD2C9700F49A7B /* BolaOriginal.png */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -144,8 +169,22 @@
 				27156F5418B76AF50053A99C /* Navigation-Info.plist */,
 				27156F5518B76AF50053A99C /* InfoPlist.strings */,
 				27156F5818B76AF50053A99C /* main.m */,
-				5B1312BF18BE8485007DD9E7 /* Bola.png */,
 				27156F5A18B76AF50053A99C /* Navigation-Prefix.pch */,
+				5B184A8E18BFD38700922040 /* alce.png */,
+				5B184A9018BFD39300922040 /* baleia.png */,
+				5B184A9218BFD39900922040 /* camelo.png */,
+				5B184A9418BFD3A500922040 /* dinossauro.png */,
+				5B184A9618BFD3BD00922040 /* elefante.png */,
+				5B184A9818BFD50F00922040 /* foca.png */,
+				5B184A9A18BFD51600922040 /* gato.png */,
+				5B184A9C18BFD60600922040 /* hamster.png */,
+				5B184A9E18BFD60C00922040 /* iguana.png */,
+				5B184AA018BFD61200922040 /* jacare.png */,
+				5B184AA218BFD73200922040 /* kiwi.png */,
+				5B184AA418BFD73D00922040 /* laranja.png */,
+				5B184AA618BFD74400922040 /* melancia.png */,
+				5B184AA818BFD74C00922040 /* nabo.png */,
+				5B184AAA18BFD75300922040 /* onca.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,11 +283,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B184A8F18BFD38700922040 /* alce.png in Resources */,
+				5B184AA918BFD74C00922040 /* nabo.png in Resources */,
+				5B184AAB18BFD75300922040 /* onca.png in Resources */,
 				27156F5718B76AF50053A99C /* InfoPlist.strings in Resources */,
+				5B184A9D18BFD60600922040 /* hamster.png in Resources */,
+				5B184A9918BFD50F00922040 /* foca.png in Resources */,
+				5B184AA118BFD61200922040 /* jacare.png in Resources */,
+				5B184AA318BFD73200922040 /* kiwi.png in Resources */,
+				5B184A9518BFD3A500922040 /* dinossauro.png in Resources */,
+				5B184A9718BFD3BD00922040 /* elefante.png in Resources */,
+				5B184AA518BFD73D00922040 /* laranja.png in Resources */,
+				5B184AA718BFD74400922040 /* melancia.png in Resources */,
+				5B184A9318BFD39900922040 /* camelo.png in Resources */,
+				5B184A9B18BFD51600922040 /* gato.png in Resources */,
 				5B1312BB18BE66AC007DD9E7 /* LetraView.xib in Resources */,
-				5B1312C018BE8485007DD9E7 /* Bola.png in Resources */,
 				27156F5F18B76AF50053A99C /* Images.xcassets in Resources */,
-				5B9653F418BD2C9700F49A7B /* BolaOriginal.png in Resources */,
+				5B184A9F18BFD60C00922040 /* iguana.png in Resources */,
+				5B184A9118BFD39300922040 /* baleia.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
